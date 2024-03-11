@@ -1,0 +1,71 @@
+/* Basic Page Styles */
+/* CSS
+* defining classes 
+* changes for  tag in html 
+*/
+/* body with changes:
+background image , adding background color
+*/
+body {
+
+    background-color: #f0f0f0;
+    background-image: url(/IMAGES/bhaubali@back.jpg);
+    background-size: cover;
+}
+
+/*header
+defining height , width, font size , color, and font family 
+*/
+header {
+
+    height: auto;
+    width: 80%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    text-align: right;
+}
+
+/*  class= postername 
+for: name of movie
+defining color, align, float, decoration and many more. 
+*/
+.postername {
+    color: rgb(210, 173, 86);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: inline-end;
+    width: 40%;
+    text-decoration: dotted;
+    line-break: normal;
+}
+
+/* class=posterspace
+for= adding additional space among different classes and element of html
+defining only height with 100% width
+*/
+.posterspace {
+    width: 100%;
+    height: 200px;
+}
+
+/* class=posterbottom
+for= editing text in  placed in footer describing the team 
+defining width, color , padding , font size and align of text
+*/
+.posterbottom {
+    width: 100%;
+    color: #fff;
+    padding-left: 250px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* on anchor tag :: for hover
+for= to change color when mouse point on particular text
+defining text decoration
+*/
+a:hover {
+    text-decoration: underline;
+ 
+}
