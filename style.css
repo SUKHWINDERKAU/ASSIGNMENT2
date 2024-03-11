@@ -9,7 +9,7 @@ background image , adding background color
 body {
 
     background-color: #f0f0f0;
-    background-image: url(/IMAGES/bhaubali@back.jpg);
+    background-image: url(bhaubali@back.jpg);
     background-size: cover;
 }
 
